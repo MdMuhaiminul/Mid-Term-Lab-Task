@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>University Admission Form</title>
+</head>
+
+<body>
+    <h1>University Admission Form</h1>
+
+    <form action="" method="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" maxlength="50" required>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>male
+            <input type="radio" id="female" name="gender" value="female">female
+            <input type="radio" id="other" name="gender" value="other">other
+            <br><br>
+
+            <label>Interests:</label>
+            <input type="checkbox" id="programming" name="interests" value="programming">programming
+            <input type="checkbox" id="robotics" name="interests" value="robotics">robotics
+            <input type="checkbox" id="research" name="interests" value="research">research
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label for="school">School Name:</label>
+            <input type="text" id="school" name="school" placeholder="Enter Your School Name" maxlength="60" required>
+            <br><br>
+
+            <label for="college">College Name:</label>
+            <input type="text" id="college" name="college" placeholder="Enter Your College Name" maxlength="60" required>
+            <br><br>
+
+            <label for="sscResult">SSC Result:</label>
+            <input type="text" id="sscResult" name="sscResult" placeholder="Enter Your SSC Result" maxlength="4" required>
+            <br><br>
+
+            <label for="hscResult">HSC Result:</label>
+            <input type="text" id="hscResult" name="hscResult" placeholder="Enter Your HSC Result" maxlength="4" required>
+            <br><br>
+
+            <label for="department">Preferred Department:</label>
+            <select id="department" name="department" required>
+                <option value="">Select a Department</option>
+                <option value="cse">Computer Science and Engineering</option>
+                <option value="eee">Electrical and Electronic Engineering</option>
+                <option value="bba">Business Administration</option>
+                <option value="english">English</option>
+            </select>
+            <br><br>
+
+            <label for="transcript">Upload Transcript:</label>
+            <input type="file" id="transcript" name="transcript" accept="application/pdf" required>
+            <br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
