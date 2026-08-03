@@ -1,0 +1,84 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+#container {
+    border: 2px solid darkblue;
+    width: 700px;
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-top: 10px;
+}
+
+input {
+    width: 400px;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+span {
+    display: inline-block;
+    color: red;
+    margin-left: 155px;
+    margin-top: 5px;
+}
+
+#btn {
+    color: white;
+    background-color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 155px;
+}
+
+#btn:hover {
+    background-color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+caption {
+    color: darkblue;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid darkblue;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    color: white;
+    background-color: darkblue;
+}
+
+.deleteBtn {
+    color: white;
+    background-color: red;
+    padding: 7px 12px;
+    border: none;
+}
+
+.deleteBtn:hover {
+    background-color: darkred;
+}
