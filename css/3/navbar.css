@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    background-color: darkblue;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0px 5px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
