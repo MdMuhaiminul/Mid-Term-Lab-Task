@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Editable Table</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Student Management System</h1>
+
+        <label for="name">Student Name</label>
+        <input type="text" id="name" placeholder="Enter Student Name"><br>
+        <span id="nameErr">
+        </span><br>
+
+        <label for="roll">Student Roll</label>
+        <input type="text" id="roll" placeholder="Enter Student Roll"><br>
+        <span id="rollErr">
+        </span><br>
+
+        <label for="department">Department</label>
+        <input type="text" id="department" placeholder="Enter Department"><br>
+        <span id="departmentErr">
+        </span><br>
+
+        <button id="btn">Add Student</button>
+
+        <br><br>
+
+        <table id="studentTable">
+            <caption>
+                Student Information
+            </caption>
+
+            <tr>
+                <th>Name</th>
+                <th>Roll</th>
+                <th>Department</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
