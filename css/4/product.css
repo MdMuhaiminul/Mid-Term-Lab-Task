@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#div1,
+#div2,
+#div3 {
+    display: inline-block;
+    width: 250px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#div1:hover,
+#div2:hover,
+#div3:hover {
+    outline: 5px solid coral;
+    outline-offset: 5px;
+}
+
+img {
+    width: 150px;
+    height: 120px;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: coral;
+}
