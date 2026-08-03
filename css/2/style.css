@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+}
+
+.profile h2 {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.profile h3 {
+    font-size: 1.3em;
+}
+
+.profile p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.bio {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1em;
+}
