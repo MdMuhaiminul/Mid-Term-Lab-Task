@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer>
+    </script>
+</head>
+
+<body>
+    <header id="header">
+        <h1>My Portfolio</h1>
+
+        <p id="greeting">
+        </p>
+
+        <button id="themeBtn">Switch to Dark Mode</button>
+
+        <nav>
+            <a href="#" id="aboutBtn">About</a>
+            <a href="#" id="projectBtn">Projects</a>
+            <a href="#" id="contactBtn">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="aboutSection" class="section">
+            <h2>About Me</h2>
+
+            <p>
+                I am a computer science student who is interested in web development,
+                programming and learning new technologies.
+            </p>
+
+            <p>
+                I enjoy creating simple and interactive websites using HTML,
+                CSS and JavaScript.
+            </p>
+        </section>
+
+        <section id="projectSection" class="section">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>Student Registration Form</h3>
+
+                <p>
+                    A registration form with JavaScript validation for student information.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Image Slider</h3>
+
+                <p>
+                    An automatic image slider with Previous and Next buttons.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Digital Clock</h3>
+
+                <p>
+                    A real-time digital clock that updates every second.
+                </p>
+            </div>
+        </section>
+
+        <section id="contactSection" class="section">
+            <h2>Contact Me</h2>
+
+            <form action="" method="" onsubmit="return validateForm()">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name"><br>
+                <span id="nameErr">
+                </span><br>
+
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
+                <span id="emailErr">
+                </span><br>
+
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" placeholder="Enter Your Message"></textarea><br>
+                <span id="messageErr">
+                </span><br>
+
+                <input type="submit" id="submit" value="Send Message">
+
+                <p id="successMessage">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <span>
+            All Right Reserved By My Portfolio
+        </span>
+    </footer>
+</body>
+
+</html>
