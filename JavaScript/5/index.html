@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>Text Analyzer</h1>
+
+        <label for="textInput">Enter Your Text</label><br>
+
+        <textarea id="textInput" rows="10" cols="50" placeholder="Write or paste your text here"></textarea><br>
+
+        <span id="textErr">
+        </span><br>
+
+        <button id="btn">Analyze Text</button>
+
+        <div id="result">
+            <h2>Analysis Result</h2>
+
+            <p>
+                Total Characters: <span id="characterCount">0</span>
+            </p>
+
+            <p>
+                Total Words: <span id="wordCount">0</span>
+            </p>
+
+            <p>
+                Reversed Text:
+            </p>
+
+            <p id="reversedText">
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
