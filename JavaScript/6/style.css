@@ -1,0 +1,27 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+#container {
+    width: 500px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#clock {
+    color: white;
+    background-color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 25px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
