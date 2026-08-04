@@ -1,0 +1,41 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+#container {
+    width: 700px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#p1 {
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    text-align: left;
+    line-height: 28px;
+    border: 1px solid darkblue;
+    padding: 20px;
+    margin: 25px 0px;
+}
+
+button {
+    color: white;
+    background-color: darkblue;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+}
+
+button:hover {
+    color: black;
+    background-color: orange;
+}
