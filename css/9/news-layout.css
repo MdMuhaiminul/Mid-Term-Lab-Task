@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+h1 {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+#container {
+    width: 96%;
+    margin: auto;
+    white-space: nowrap;
+}
+
+#sidebar,
+#main-content,
+#advertisement {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0px 0.5%;
+    border: 2px solid darkblue;
+    white-space: normal;
+    min-height: 450px;
+}
+
+#sidebar {
+    width: 19%;
+    background-color: lightblue;
+}
+
+#main-content {
+    width: 59%;
+    background-color: white;
+}
+
+#advertisement {
+    width: 19%;
+    background-color: lightyellow;
+}
+
+#sidebar h2,
+#main-content h2,
+#advertisement h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+#main-content h3 {
+    color: darkred;
+}
+
+#main-content p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+#advertisement a {
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#advertisement a:hover {
+    background-color: orange;
+    color: black;
+}
