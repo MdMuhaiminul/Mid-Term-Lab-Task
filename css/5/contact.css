@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0px;
+}
+
+#content {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    min-height: 1000px;
+}
+
+#content h2 {
+    color: darkblue;
+}
+
+#content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#contact {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+}
+
+#contact:hover {
+    background-color: lightblue;
+}
+
+#contact h3 {
+    text-align: center;
+    color: darkblue;
+    margin-top: 0px;
+}
+
+#contact p {
+    margin: 8px 0px;
+}
+
+#contact a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
