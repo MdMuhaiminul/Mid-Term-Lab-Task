@@ -1,0 +1,45 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1 {
+    color: darkblue;
+}
+
+#card {
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#card img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid darkblue;
+    border-radius: 50%;
+}
+
+#card h2 {
+    color: darkblue;
+}
+
+#card p {
+    line-height: 25px;
+}
+
+#badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background-color: green;
+    padding: 7px 12px;
+    border-radius: 10px;
+}
