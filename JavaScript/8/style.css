@@ -1,0 +1,36 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+#container {
+    width: 450px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 60px auto;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select,
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#rollField,
+#departmentField {
+    display: none;
+}
