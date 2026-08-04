@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: Arial;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid darkblue;
+}
+
+header h1 {
+    color: darkblue;
+}
+
+#greeting {
+    color: darkred;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#themeBtn {
+    color: white;
+    background-color: darkblue;
+    padding: 10px 15px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+#themeBtn:hover {
+    background-color: orange;
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+main {
+    width: 75%;
+    min-height: 500px;
+    margin: 30px auto;
+}
+
+.section {
+    border: 2px solid darkblue;
+    background-color: white;
+    padding: 25px;
+}
+
+.section h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+.section p {
+    line-height: 28px;
+}
+
+#projectSection {
+    display: none;
+}
+
+#contactSection {
+    display: none;
+}
+
+.project {
+    border: 1px solid darkblue;
+    background-color: lightcyan;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.project h3 {
+    color: darkblue;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+textarea {
+    height: 100px;
+    vertical-align: top;
+}
+
+#nameErr,
+#emailErr,
+#messageErr {
+    display: inline-block;
+    color: red;
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    margin-left: 105px;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    margin-left: 105px;
+}
+
+footer {
+    color: darkblue;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid darkblue;
+}
