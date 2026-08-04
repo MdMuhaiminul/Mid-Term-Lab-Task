@@ -1,0 +1,78 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+}
+
+#container {
+    width: 600px;
+    border: 2px solid darkblue;
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 40px auto;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    resize: none;
+}
+
+#textErr {
+    display: inline-block;
+    color: red;
+    margin-top: 5px;
+}
+
+#btn {
+    color: white;
+    background-color: darkblue;
+    padding: 10px 20px;
+    border: none;
+}
+
+#btn:hover {
+    background-color: green;
+}
+
+#result {
+    display: none;
+    background-color: white;
+    border: 1px solid darkblue;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+#result h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+#result p {
+    line-height: 25px;
+}
+
+#characterCount,
+#wordCount {
+    color: green;
+    font-weight: bold;
+}
+
+#reversedText {
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    padding: 10px;
+    min-height: 50px;
+    word-wrap: break-word;
+}
